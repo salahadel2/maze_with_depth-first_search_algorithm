@@ -39,7 +39,8 @@ class StackFrontier():
         else:
             node = self.frontier[-1]
             self.frontier = self.frontier[:-1]
-            return node
+            return node                            # return self.frontier.pop(-1)
+            
 
 
 # In[5]:
